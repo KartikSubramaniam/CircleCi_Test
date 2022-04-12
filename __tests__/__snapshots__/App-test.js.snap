@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Message 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "red",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "allignSelf": "center",
+        "backgroundColor": "yellow",
+        "height": 200,
+        "marginTop": 10,
+        "opacity": 1,
+        "width": 200,
+      }
+    }
+  >
+    <Text>
+      Say Hello
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Arial",
+        "fontSize": 38,
+        "marginTop": 10,
+        "textAlign": "center",
+      }
+    }
+    testID="printed-message"
+  >
+    Hello Tester
+  </Text>
+</View>
+`;
