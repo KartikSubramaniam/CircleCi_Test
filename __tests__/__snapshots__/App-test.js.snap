@@ -4,7 +4,6 @@ exports[`Renders Message 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "red",
       "flex": 1,
     }
   }
@@ -48,5 +47,125 @@ exports[`Renders Message 1`] = `
   >
     Hello Tester
   </Text>
+  <View
+    accessibilityLiveRegion="polite"
+    accessibilityRole="radio"
+    accessibilityState={
+      Object {
+        "checked": true,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 18,
+          "padding": 6,
+        },
+      ]
+    }
+    testID="first"
+  >
+    <View
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Text
+        accessibilityElementsHidden={true}
+        allowFontScaling={false}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "color": "red",
+              "fontSize": 24,
+            },
+          ]
+        }
+      >
+        □
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityLiveRegion="polite"
+    accessibilityRole="radio"
+    accessibilityState={
+      Object {
+        "checked": false,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 18,
+          "padding": 6,
+        },
+      ]
+    }
+    testID="second"
+  >
+    <View
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <Text
+        accessibilityElementsHidden={true}
+        allowFontScaling={false}
+        importantForAccessibility="no-hide-descendants"
+        pointerEvents="none"
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+            },
+            Object {
+              "color": "#03dac4",
+              "fontSize": 24,
+            },
+          ]
+        }
+      >
+        □
+      </Text>
+    </View>
+  </View>
 </View>
 `;
